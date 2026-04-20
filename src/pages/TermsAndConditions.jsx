@@ -18,7 +18,7 @@ export default function TermsAndConditions() {
           We operate the website <a href="http://printermania.shop/">http://printermania.shop/</a> (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
         </p>
         <p>
-          Printer Mania Solutions is your trusted destination for authentic, high-performance printers and printing accessories from HP and other leading technology brands.
+          Printer Mania Solutions is your trusted destination for authentic, high-performance printers and printing accessories from leading technology brands.
         </p>
         <p>
           You can contact us by email at <a href="mailto:info@printermania.shop">info@printermania.shop</a>, or by mail to 111 S Princess St, Shepherdstown, WV 25443, United States.

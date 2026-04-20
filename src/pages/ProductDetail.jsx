@@ -280,7 +280,7 @@ export default function ProductDetail() {
                   {activeTab === 'specs' && (
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-y-5 gap-x-16">
                       {[
-                        { label: "Manufacturer", value: product.brand_name || "Certified Partner" },
+                        { label: "Manufacturer", value: product.brand_name || "Original Brand" },
                         { label: "Product Class", value: "Enterprise Hardware" },
                         { label: "Deployment", value: "Smart Connectivity" },
                         { label: "Condition", value: "100% Genuine New" }

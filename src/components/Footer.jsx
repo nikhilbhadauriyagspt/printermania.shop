@@ -127,10 +127,15 @@ export default function Footer() {
                 <span className="absolute -bottom-3 left-0 w-5 h-[2px] bg-[#4f46e5] rounded-full"></span>
               </h4>
               <ul className="space-y-4">
-                {['About Us', 'Contact Us', 'FAQs', 'Track Order'].map(item => (
-                  <li key={item}>
-                    <Link to={`/${item.toLowerCase().replace(' ', '-')}`} className="text-slate-500 hover:text-[#4f46e5] font-bold text-[13px] transition-all">
-                      <span>{item}</span>
+                {[
+                  { name: 'About Us', path: '/about' },
+                  { name: 'Contact Us', path: '/contact' },
+                  { name: 'FAQs', path: '/faq' },
+                  { name: 'Track Order', path: '/track-order' }
+                ].map(item => (
+                  <li key={item.name}>
+                    <Link to={item.path} className="text-slate-500 hover:text-[#4f46e5] font-bold text-[13px] transition-all">
+                      <span>{item.name}</span>
                     </Link>
                   </li>
                 ))}
@@ -173,7 +178,7 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col">
                   <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-1">USA HQ</span>
-                  <span className="text-slate-900 font-bold text-[13px] leading-tight">Shepherdstown, WV 25443</span>
+                  <span className="text-slate-900 font-bold text-[13px] leading-tight">111 S Princess St, Shepherdstown, WV 25443, United States</span>
                 </div>
               </div>
             </div>
@@ -186,9 +191,12 @@ export default function Footer() {
       <div className="w-full border-t border-slate-100 bg-white py-8">
         <div className="max-w-full mx-auto px-6 lg:px-24 flex flex-col md:flex-row items-center justify-between gap-6">
 
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col items-center md:items-start gap-2">
             <p className="text-slate-400 text-[11px] font-bold tracking-wide">
               &copy; {new Date().getFullYear()} <span className="text-slate-900">Printer Mania Inc.</span> All rights reserved.
+            </p>
+            <p className="text-slate-500 text-[13px] md:text-[15px] font-bold italic tracking-wide">
+              Disclaimer: For Informational only. No software installation or distribution.
             </p>
           </div>
 

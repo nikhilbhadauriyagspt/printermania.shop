@@ -25,7 +25,7 @@ export default function BrandShowcase({ brands = [] }) {
 
           <div className="hidden md:flex items-center gap-2 text-slate-400">
             <ShieldCheck size={18} className="text-[#4B4DED]" />
-            <span className="text-xs font-black uppercase tracking-widest">Authorized Dealer</span>
+            <span className="text-xs font-black uppercase tracking-widest">Premium Selection</span>
           </div>
         </div>
 
@@ -69,7 +69,7 @@ export default function BrandShowcase({ brands = [] }) {
         <div className="mt-16 flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left border-t border-slate-50 pt-12">
           <div className="flex flex-col items-center md:items-start max-w-xs">
             <span className="text-[11px] font-black text-[#4B4DED] uppercase tracking-widest mb-2">Original Parts</span>
-            <p className="text-slate-500 text-xs font-medium">We only stock 100% genuine parts directly from these certified manufacturers.</p>
+            <p className="text-slate-500 text-xs font-medium">We only stock 100% genuine parts directly from these original manufacturers.</p>
           </div>
           <div className="hidden md:block w-px h-12 bg-slate-100"></div>
           <div className="flex flex-col items-center md:items-start max-w-xs">

@@ -92,7 +92,7 @@ export default function Wishlist() {
 
                 <div className="space-y-2 flex-1 flex flex-col px-2">
                   <div className="flex items-center justify-between">
-                    <span className="text-[9px] font-black text-[#1447E6] uppercase tracking-widest">{p.brand_name || 'HP Supply'}</span>
+                    <span className="text-[9px] font-black text-[#1447E6] uppercase tracking-widest">{p.brand_name || 'Genuine Supply'}</span>
                     <div className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
                   </div>
                   <Link to={`/product/${p.slug}`}>

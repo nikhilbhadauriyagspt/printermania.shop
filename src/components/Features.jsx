@@ -10,8 +10,8 @@ import {
 const features = [
   {
     icon: Award,
-    title: "HP Supply Partner",
-    desc: "100% Genuine HP Inventory",
+    title: "Genuine Inventory",
+    desc: "100% Genuine Inventory",
     accent: "bg-amber-50 text-amber-600"
   },
   {

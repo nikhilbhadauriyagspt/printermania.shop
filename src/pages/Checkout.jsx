@@ -281,7 +281,7 @@ export default function Checkout() {
                             return actions.order.create({
                               purchase_units: [{
                                 amount: { value: finalTotal.toString() },
-                                description: `HP Hardware Procurement - ${cartCount} Units`,
+                                description: ` Hardware Procurement - ${cartCount} Units`,
                               }],
                             });
                           }}

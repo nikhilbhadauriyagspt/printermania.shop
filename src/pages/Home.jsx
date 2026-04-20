@@ -72,7 +72,7 @@ export default function Home() {
       <SEO
         title="Printer Mania | Premium Printing Solutions"
         description="Shop genuine printers, ink, and toner in Pasadena, CA. Premium business printing solutions with nationwide shipping."
-        keywords="Buy HP Printers Online, Genuine HP Ink and Toner, HP LaserJet, HP OfficeJet, Printer Accessories, Business Printing Solutions, Pasadena Tech Store"
+        keywords="Buy Printers Online, Genuine Ink and Toner, LaserJet, OfficeJet, Printer Accessories, Business Printing Solutions, Pasadena Tech Store"
       />
       {/* 1. HERO */}
       <div className="relative">

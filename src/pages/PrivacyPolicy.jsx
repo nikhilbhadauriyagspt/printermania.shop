@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
       </p>
       <ul>
         <li>Visit our website at <a href="http://printermania.shop/">http://printermania.shop/</a> or any website of ours that links to this Privacy Notice</li>
-        <li>Use Printers, Consumables & Accessories. Printer Mania Solutions is your trusted destination for authentic, high-performance printers and printing accessories from HP and other leading technology brands.</li>
+        <li>Use Printers, Consumables & Accessories. Printer Mania Solutions is your trusted destination for authentic, high-performance printers and printing accessories from leading technology brands.</li>
         <li>Engage with us in other related ways, including any marketing or events</li>
       </ul>
       <p>

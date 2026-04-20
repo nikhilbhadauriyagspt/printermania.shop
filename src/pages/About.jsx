@@ -23,7 +23,7 @@ export default function About() {
           Hardware Excellence
         </h1>
         <p className="mt-4 text-slate-500 text-lg md:text-xl font-medium max-w-2xl">
-          A new generation partner bridging the gap between complex technology and a seamless experience.
+          A new generation provider bridging the gap between complex technology and a seamless experience.
         </p>
       </div>
 
@@ -43,7 +43,7 @@ export default function About() {
               Founded in 2026, Printer Mania was established to solve a singular challenge: making the acquisition of high-performance printing infrastructure simple, transparent, and absolutely authentic.
             </p>
             <p className="text-slate-600 text-lg leading-relaxed">
-              As a new generation partner, we bridge the gap between complex industrial technology and a seamless, personalized experience. Technology should work as hard as you do.
+              As a new generation provider, we bridge the gap between complex industrial technology and a seamless, personalized experience. Technology should work as hard as you do.
             </p>
             <Link to="/shop" className="inline-flex items-center gap-2 text-[#4F46E5] font-bold hover:underline">
               Browse our catalog <ArrowRight size={18} />
@@ -55,7 +55,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 py-16 border-y border-slate-100">
           {[
             { icon: Printer, title: "Top Quality Products", desc: "Expert selection of LaserJet, All-in-One, and high-volume industrial systems tailored for your business needs." },
-            { icon: Package, title: "Supply chain excellence", desc: "Source for 100% genuine ink, toner, and certified replacement parts with rapid nationwide delivery." },
+            { icon: Package, title: "Supply chain excellence", desc: "Source for 100% genuine ink, toner, and original replacement parts with rapid nationwide delivery." },
             { icon: Headphones, title: "Quick assistance", desc: "Factory-trained technicians providing troubleshooting, installation guidance, and long-term hardware maintenance." }
           ].map((item, i) => (
             <div key={i} className="space-y-6">
@@ -77,7 +77,7 @@ export default function About() {
             </div>
             <h3 className="text-2xl font-bold text-slate-900 capitalize">The customer standard</h3>
             <p className="text-slate-600 leading-relaxed text-lg">
-              To empower professionals with reliable, efficient, and sustainable hardware solutions through original products and certified advice. We believe in technology that works as hard as you do.
+              To empower professionals with reliable, efficient, and sustainable hardware solutions through original products and expert advice. We believe in technology that works as hard as you do.
             </p>
           </div>
           <div className="space-y-6">
@@ -87,7 +87,7 @@ export default function About() {
             </div>
             <h3 className="text-2xl font-bold text-slate-900 capitalize">Nationwide reach</h3>
             <p className="text-slate-600 leading-relaxed text-lg">
-              Expanding across the United States to deliver professional HP technology with unmatched logistics and long-term service value. Our network ensures you are never without technical support.
+              Expanding across the United States to deliver professional printing technology with unmatched logistics and long-term service value. Our network ensures you are never without technical support.
             </p>
           </div>
         </div>

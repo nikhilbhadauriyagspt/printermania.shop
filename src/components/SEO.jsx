@@ -9,7 +9,7 @@ export default function SEO({ title, description, keywords, schemaType = "Websit
 
     // Update Description
     const metaDescription = document.querySelector('meta[name="description"]');
-    const defaultDesc = "Printer Mania is located in Shepherdstown, West Virginia, offering genuine HP printers, ink, toner, and nationwide shipping.";
+    const defaultDesc = "Printer Mania is located in Shepherdstown, West Virginia, offering genuine printers, ink, toner, and nationwide shipping.";
     const finalDesc = description || defaultDesc;
     if (metaDescription) {
       metaDescription.setAttribute('content', finalDesc);
@@ -22,7 +22,7 @@ export default function SEO({ title, description, keywords, schemaType = "Websit
       metaKeywords.name = "keywords";
       document.head.appendChild(metaKeywords);
     }
-    metaKeywords.setAttribute('content', keywords || "Business Printers, Genuine HP Ink, Printer Service, Shepherdstown West Virginia");
+    metaKeywords.setAttribute('content', keywords || "Business Printers, Genuine Ink, Printer Service, Shepherdstown West Virginia");
 
     // Update Canonical
     let canonical = document.querySelector('link[rel="canonical"]');

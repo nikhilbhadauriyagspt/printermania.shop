@@ -163,7 +163,7 @@ export default function SearchOverlay() {
                         <TrendingUp size={14} /> Popular searches
                       </h3>
                       <div className="flex flex-wrap gap-2">
-                        {['HP LaserJet', 'Ink Tank', 'Smart Tank', 'Color LaserJet', 'Wireless Printer'].map((tag) => (
+                        {[' LaserJet', 'Ink Tank', 'Smart Tank', 'Color LaserJet', 'Wireless Printer'].map((tag) => (
                           <button
                             key={tag}
                             onClick={() => handleQuickSearch(tag)}
